@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="lab3.css"
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tracy Olechowski</title>
+    <script>
+        let entry;
+        let num2;
+        let num1;
+    
+        //ask for their number 
+        entry = prompt ("Enter your number: ");
+        entry = parseInt(entry);
+       </script>
+</head>
+<body>
+    <script>
+        //go through the problem
+        document.write("<h1>Your lucky number is 7!</h1>");
+        document.write("How did I figure that out you ask..."+"<br>") 
+        num2 = entry +9;
+        document.write(entry + " + 9 = "+ num2 + "<br>")
+        num1 = num2 * 2;
+        document.write(num2 + " * 2 = "+ num1 + "<br>")
+        num2 = num1 - 4;
+        document.write(num1 + " - 4 = "+ num2+ "<br>")
+        num1=num2 / 2;
+        document.write(num2 + " / 2 = "+ num1 + "<br>")
+        num2= num1 - entry;
+        document.write(num1 + " minus your first number and you get "+  num2+ "! <br>")
+        alert("It's magic!");
+    </script>
+</body>
+</html>
